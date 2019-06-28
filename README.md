@@ -13,7 +13,7 @@ The function make_graph takes seven inputs:
 4) logical width: the width of the viewing window on the complex plane.
 5) logical height: the height of the viewing window on the complex plane.
 6) max iterations: the maximum nuber of times the program will iterate f_c(z) at each input.
-7) color option: 0 for black and white, 1 for color based on the number of iterations to go out of bounds, and 2 for smooth color based on the renormalization of the number of iterations to escape bounds.
+7) color option: 0 for black and white, 1 for color based on the number of iterations to go out of bounds, and 2 for smooth color based on the renormalized escape.
 
 Generate different images of the Mandelbrot Set by changing these parameters where make_graph is called in main.
 
